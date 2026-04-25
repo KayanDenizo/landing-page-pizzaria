@@ -1,0 +1,2 @@
+# Este projeto foi criado para praticar um pouco de css, html e javascript
+Esta landing page de pizzaria nao é complexo, com design moderno ou detalhado. É apenas um design simples para a prática de conceitos básicos de CSS3, HTML5 e JavaScript. 
