@@ -1,0 +1,81 @@
+.maestros-section {
+    background-color: #f4f3ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 2.5rem;
+}
+
+.meet-maestros {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+    width: 100%;
+    max-width: 64rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.red-line {
+    flex: 1;
+    height: 1px;
+    margin-bottom: 14px;
+    background-color: var(--primary-color);
+}
+
+.maestros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+    gap: 3rem;
+    width: 100%;
+    max-width: 64rem;
+}
+
+.maestro-card {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+
+.maestro-card img {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.info-maestro {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+    .meet-maestros {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .red-line {
+        width: 100%;
+        flex: initial;
+        margin-bottom: 0;
+    }
+
+    .maestro-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .maestro-card img {
+        width: 100%;
+    }
+}
