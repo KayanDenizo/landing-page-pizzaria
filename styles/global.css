@@ -10,3 +10,8 @@
     --tertiary-color: #1A1A1A;
     --neutral-color: #F9F7F2;
 }
+
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+}
